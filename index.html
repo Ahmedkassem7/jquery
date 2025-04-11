@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <img src="/images/brid1.webp" alt="Gallery Image" />
+      </div>
+      <div class="gallery-card">
+        <img src="/images/brid2.webp" alt="Gallery Image" />
+      </div>
+      <div class="gallery-card">
+        <img src="/images/brid1.webp" alt="Gallery Image" />
+      </div>
+      <div class="gallery-card">
+        <img src="/images/brid3.webp" alt="Gallery Image" />
+      </div>
+      <div class="gallery-card">
+        <img src="/images/brid2.webp" alt="Gallery Image" />
+      </div>
+      <div class="gallery-card">
+        <img src="/images/brid3.webp" alt="Gallery Image" />
+      </div>
+    </div>
+
+    <div class="lightbox-overlay">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-image-wrapper">
+        <img src="" alt="Preview" class="lightbox-image" />
+      </div>
+      <span class="lightbox-nav prev">&lsaquo;</span>
+      <span class="lightbox-nav next">&rsaquo;</span>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
